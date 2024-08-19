@@ -1,24 +1,22 @@
 [package]
-name = "normal-heights"
-version = "0.1.2"
-authors = ["Jon Olin"]
+name = "normal-heights-labpbr"
+version = "0.1.0"
+authors = ["Zelo101", "Jon Olin"]
 edition = "2021"
 license = "MIT"
-description = "Creates normal maps from height maps."
+description = "Creates LabPBR normal(_n) maps from height maps."
 readme = "README.md"
-repository = "https://github.com/8bittree/normal_heights"
+repository = "https://github.com/Zolo101/normal_heights_labpbr"
 categories = [
     "command-line-utilities",
     "game-development",
     "graphics",
     "multimedia::images",
 ]
-keywords = [
-    "normal-map"
-]
+keywords = ["normal-map", "labpbr"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 clap = "^2.33.1"
-image = "0.23.14"
+image = "^0.25.2"
